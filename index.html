@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Klinik Dr. Riris</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f9;
+        }
+        .container {
+            width: 80%;
+            max-width: 1200px;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+            background-color: #ffffff;
+        }
+        .sidebar {
+            width: 50%;
+            background-image: url('https://via.placeholder.com/600'); /* Ganti URL ini dengan gambar klinik */
+            background-size: cover;
+            background-position: center;
+            height: 100%;
+        }
+        .content {
+            width: 50%;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+        }
+        .content h1 {
+            font-size: 2.5em;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .content p {
+            font-size: 1.1em;
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        .navbar {
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+            background-color: #333;
+            padding: 10px 20px;
+            color: white;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#login">Login</a>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Sidebar Image -->
+        <div class="sidebar"></div>
+
+        <!-- Content Section -->
+        <div class="content">
+            <h1>Selamat Datang di Klinik Dr. Riris</h1>
+            <p>
+                Klinik Dr. Riris adalah pusat layanan kesehatan yang berkomitmen untuk memberikan perawatan medis yang terbaik dan terpercaya.
+                Kami melayani berbagai jenis konsultasi dan pemeriksaan kesehatan, dengan fasilitas yang lengkap dan tenaga medis yang berpengalaman.
+                Kesehatan Anda adalah prioritas utama kami.
+            </p>
+            <p>
+                Dengan layanan yang ramah dan profesional, kami siap membantu Anda dalam menjaga kesehatan dan kesejahteraan Anda. 
+                Kunjungi klinik kami untuk mendapatkan pelayanan kesehatan berkualitas tinggi yang nyaman dan aman.
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>
